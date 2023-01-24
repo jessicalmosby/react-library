@@ -6,7 +6,7 @@ export default function Main() {
     <main className="container">
       <h1>Library Catalog</h1>
       <p>
-        Take a look at our <Link to="/books">catalog</Link>
+        Take a look at the <Link to="/books">catalog</Link>
       </p>
     </main>
   );

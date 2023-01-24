@@ -9,8 +9,9 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route path="/books/:id" component={BookDetail} />
         <Route path="/books" component={BookList} />
+        <Route path="/" component={Main} />
       </Switch>
     </>
   );
